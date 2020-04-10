@@ -5,11 +5,11 @@ using namespace std;
 
 Guitar::Guitar()
 {
-    GuitarSpec *pSpec = &spec;
-    pSpec = new GuitarSpec("dummyModel");
-    serialNumber = -1;
+    // GuitarSpec *pSpec = &spec;
+    // pSpec = new GuitarSpec("dummyModel");
+    // serialNumber = -1;
 }
-    
+
 int Guitar::getSerialNumber()
 {
     return -1;
@@ -17,5 +17,5 @@ int Guitar::getSerialNumber()
 
 GuitarSpec Guitar::getSpec()
 {
-    return -1;
+    return this->spec;
 }
