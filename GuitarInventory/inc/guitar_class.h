@@ -7,10 +7,15 @@ class Guitar
 {
     public:
         Guitar();
-        int getSerialNumber();
+        Guitar(int serialNumber, int price, GuitarSpec spec);
+
+        int        getSerialNumber();
+        int        getPrice();
+        int        updatePrice();
         GuitarSpec getSpec();
 
     private:
+        int        price;
         int        serialNumber;
         GuitarSpec spec;
 };

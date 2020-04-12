@@ -27,7 +27,9 @@ class GuitarSpec
         GuitarSpec();
         GuitarSpec(string model, Wood top_wood, Wood back_wood, Type type,
                    Builder builder);
+
         string getModel();
+        Wood   getTopWood();
 
     private:
         string   model;

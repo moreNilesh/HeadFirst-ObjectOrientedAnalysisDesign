@@ -22,3 +22,8 @@ string GuitarSpec::getModel()
 {
     return model;
 }
+
+Wood GuitarSpec::getTopWood()
+{
+    return top_wood;
+}
